@@ -1,0 +1,51 @@
+.weather-app {
+  text-align: center;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #add8e6; 
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sun-icon {
+  color: #f39c12; 
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-prompt {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+}
+
+.weather-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-details h2 {
+  font-size: 1.5rem;
+  color: #007acc;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
